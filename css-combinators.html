@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combinator Selector Example</title>
+    <style>
+        div p{
+            color:red;
+        }
+         div>p{
+            color:green;
+        } 
+        
+       
+        div+p{
+            color:yellow;
+            background-color: black;
+        }
+        /* div~p{
+            color:blue;
+            background-color: yellow;
+        } */
+    </style>
+</head>
+<body>
+     <div>
+        <div>
+            <p>Hi</p>
+            <p>Hello</p>
+        </div>
+        
+        <h1><p>Ok</p></h1>
+        <h2><p>Bye</p></h2>
+     </div> 
+     <p>CSS</p> 
+     <p>CSS2</p> 
+</body>
+</html>
