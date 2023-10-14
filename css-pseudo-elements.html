@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p::first-line{
+            color: red;
+        }
+        p::first-letter{
+            color: blueviolet;
+        }
+        p{
+            color:green;
+        }
+        /* p::after{
+           content: url('images/logo-sr.png');
+        } */
+        h2::selection{
+            color:yellow;
+            background-color: red;
+        }
+        a:link{
+            color:pink;
+        }
+        a:visited{
+            color: cadetblue;
+        }
+        a:hover{
+            color:chocolate;
+            background-color: black;
+        }
+        #accept:checked{
+            margin-top: 300px;
+        }
+        #txt:focus{
+           background-color: red;
+           color: yellow;
+        }
+        button:disabled{
+            border-style: solid;
+            border-width: 4px;
+            background-color: blueviolet;
+        }
+        div p:first-child{
+            background-color: orange;
+        }
+        div p:nth-child(2){
+            background-color: darkgreen;
+        }
+        div p:last-child{
+            background-color: darkseagreen;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>One</p>
+        <p>Two</p>
+        <p>Three</p>
+    </div>
+    <button disabled>Ok </button>
+    <input type="text" id="txt" placeholder="Type Text">
+    <p>Terms and Condition</p>
+    Agree <input type="checkbox" id="accept">
+    <a href="selectors.html">Click Me</a>
+    <h1>Hello Selectors</h1>
+    <p>Hello This is a Sample Text to Learn CSS Selectors and Selectors are of different types.
+        Hello This is a Sample Text to Learn CSS Selectors and Selectors are of different types.
+        Hello This is a Sample Text to Learn CSS Selectors and Selectors are of different types.
+        Hello This is a Sample Text to Learn CSS Selectors and Selectors are of different types
+    </p>
+    <h2>Hi Selectors</h2>
+</body>
+</html>
