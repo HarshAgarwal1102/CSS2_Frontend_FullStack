@@ -33,3 +33,15 @@ Types of CSS selectors
 	first line, first letter
 5. Attribute Selectors
 	input type="text"
+
+
+
+How does CSS Work?
+
+1. HTML load (Web Page)
+2. Parsing of HTML
+	2.1 Load CSS
+	2.2 Parse CSS (Attach the styling to DOM)
+
+3. Creation of DOM tree
+4. HTML display
